@@ -39,7 +39,7 @@ function App() {
         placeholder="*****"
       />
 
-          <Signup  paddingTop={10}/>
+          <Signup className="ButtonSpace" />
       
         </div>
 
@@ -68,11 +68,11 @@ function App() {
         placeholder="*****"/>
 
         
-      
+          <SignIn className="ButtonSpace"/>
         </div>
-  <SignIn/>
+   
        
-       
+  
       </header>
     </div>
   );
