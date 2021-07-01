@@ -6,7 +6,7 @@ const jwt=require("jsonwebtoken");
 const config= require("config");
 let router =express.Router();
 
-let {User}= require("../models/user");
+let {User}= require("../../models/user");
 const _ = require("lodash");
 
 router.post("/register",async (req,res)=>{
